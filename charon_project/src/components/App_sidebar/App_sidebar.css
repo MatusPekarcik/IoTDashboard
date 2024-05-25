@@ -1,0 +1,65 @@
+
+.my_sidebar {
+   
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Poppins, sans-serif;
+    background-color: #000000;
+    
+    
+    
+}
+
+
+
+.phthalo-green {
+    background-image: linear-gradient(to right,#256e4b,#1f5b3e,#184831,#123524,#0c2217,#050f0a,#000000);
+}
+
+.myText{
+    line-height: 2;
+}
+
+.hover\:phthalo-green-100:hover {
+    --tw-bg-opacity: 1;
+    background-image: linear-gradient(to right,#256e4b,#1f5b3e,#184831,#123524,#0c2217,#050f0a,#000000);
+  /* background-image: linear-gradient(to right,#668a96,#5e7f8a,#56757e,#4e6a73,#465f67,#3e545b,#364950,
+  #2e3f44,#263438,#1e292d,#161e21,#0e1415,#07090a,#000000);*/
+}
+
+.hover\:steel-100:hover {
+    --tw-bg-opacity: 1;
+    
+   background-image: linear-gradient(to right,#668a96,#5e7f8a,#56757e,#4e6a73,#465f67,#3e545b,#364950,
+  #2e3f44,#263438,#1e292d,#161e21,#0e1415,#07090a,#000000);
+}
+
+/*
+.sirka{
+
+    width: 75px;
+}
+
+.sirkaExp{
+
+    width: 295px;
+}
+*/
+
+.sirka{
+
+    width: 85px;
+}
+
+.sirkaExp{
+
+    width: 385px;
+}
+
+.phthalo-green-button{
+
+    background-image: linear-gradient(to right,#256e4b,#1f5b3e,#184831,#123524,#0c2217,#050f0a);
+}
+
+
+

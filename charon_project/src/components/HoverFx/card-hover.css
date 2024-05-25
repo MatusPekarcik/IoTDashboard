@@ -1,0 +1,19 @@
+.myCardHovrBg{
+    /*background-image: linear-gradient(to right top,#000000,#050f0a,#0c2217,#123524,#0c2217,#050f0a,#000000);*/
+    background-image: linear-gradient(to right top,#000000,#050f0a,#0c2217,#123524,#184831,#1f5b3e,#256e4b,#256e4b,#1f5b3e,#184831,#123524,#0c2217,#050f0a,#000000);
+}
+
+.myCardHovrBgSteel{
+    background-image: linear-gradient(to right top,#668a96,#5e7f8a,#56757e,#4e6a73,#465f67,#3e545b,#364950,
+  #2e3f44,#263438,#1e292d,#161e21,#0e1415,#07090a,#000000);
+}
+
+.myH{
+max-height: 555px;
+
+}
+
+.myHeighy{
+
+    height: 500px;
+  }

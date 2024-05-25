@@ -1,0 +1,410 @@
+body.active-modal {
+    overflow-y: hidden;
+}
+
+.btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+}
+
+
+.modal, .overlay { /*Y*/
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+   
+   
+}
+
+.overlay { /*Y*/
+  background: rgb(0,0,0,0.95);
+}
+
+.overlayCnctform{
+
+  background: #00000000;
+}
+
+.modal-content { /*Y*/
+   position: absolute;
+   top: 40%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+    line-height: 1; 
+    padding: 14px 28px;
+    border-radius: 3px;
+    max-width: 600px;
+    min-width: 400px;
+    
+    
+    
+}
+
+.close-modal { /*Y*/
+    position: absolute;
+    /*top: 6%;
+    right: 11%;*/
+    top: 0%;
+    right: 0%;
+    padding: 5px 7px;
+}
+
+@keyframes slide-top { /*Y*/
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(100px);
+      transform: translateY(100px);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+}
+
+.handAnimation { /*Y*/
+    -webkit-animation: slide-top 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: slide-top 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+} 
+
+.formBracket { /*Y*/
+    outline: none;
+    background: #ffffff;
+    border-radius: 3px;  
+    border:3px solid transparent;            
+    width: 100%;
+    padding: 0.1rem;
+    --tw-border-opacity: 0.9;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Poppins, sans-serif;
+}
+.formBracket_protocol{/*Y*/
+  outline: none;
+    background: #ffffff;
+    border-top-left-radius: 0px;  
+    border-bottom-left-radius: 0px; 
+    border-top-right-radius: 3px;    
+    border-bottom-right-radius: 3px;  
+    border:3px solid transparent;            
+    width: 100%;
+    padding: 0.1rem;
+    --tw-border-opacity: 0.9;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Poppins, sans-serif;
+}
+
+.formBracket_err::placeholder {
+  color: #ff0000a0; /* Change the color to your desired color */
+}
+
+.formBracket_err { /*Y*/
+  outline: none;
+  background: #ffffff;
+  border-radius: 3px;      
+  border:3px inset #ff0000;   
+  width: 100%;
+  padding: 0.1rem;
+  --tw-border-opacity: 0.9;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Poppins, sans-serif;
+  color:#ff0000;
+}
+
+
+
+.pwBracket_err{/*Y*/
+  outline: none;
+  background: #ffffff1f;
+  border: transparent;   
+  border-radius: 3px;              
+  --tw-border-opacity: 0;
+  padding: 0.1rem;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Poppins, sans-serif;
+
+
+
+}
+
+.pwBracket{/*Y*/
+  padding: 0.1rem;
+  outline: none;
+  background: #ffffff;
+  border: transparent;   
+  border-radius: 3px;              
+  --tw-border-opacity: 0;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Poppins, sans-serif;
+}
+
+
+
+.selectBracket{ /*Y*/
+  outline: none;
+  background: #ffffff;
+  border-top-left-radius: 3px;  
+  border-bottom-left-radius: 3px; 
+  border-top-right-radius: 0px;    
+  border-bottom-right-radius: 0px;       
+  border:3px inset transparent; 
+  --tw-border-opacity: 0.9;  
+
+  padding: 0.1rem; 
+
+}
+
+
+.selectBracketSolo{
+  outline: none;
+  background: #ffffff;
+  border-top-left-radius: 3px;  
+  border-bottom-left-radius: 3px; 
+  border-top-right-radius: 3px;    
+  border-bottom-right-radius: 3px;       
+  border:3px inset transparent; 
+  --tw-border-opacity: 0.9;  
+  
+  padding: 0.1rem;
+
+}
+
+.selectBracketSolo option {
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  font-family: Poppins, sans-serif !important;
+}
+
+.formLabel{ /*Y*/
+    padding-top: 1rem;
+    padding-bottom: 0.12rem;
+    display: block;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    --tw-text-opacity: 1;
+    color:#ffffffd8;
+
+}
+
+
+  
+  .slideAnimation {
+    -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+
+
+
+.main_label{ /*Y*/
+    font-family: Poppins, sans-serif;  
+    font-weight: 400;
+    background-image: linear-gradient(180deg, #ffffff,#ffffff,#ffffff,#c9c9c9,#000000);
+    background-clip: text;
+    color:transparent;
+    
+   
+    text-align: center;
+    
+    
+    
+}
+
+
+  .GetStartedMargin{ /*Y*/
+    
+    margin-top: 22%;
+    margin-left: 40%;
+    
+
+  }
+  
+  @keyframes fade-in { /*Y*/
+    0% {
+    
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .fadeinmodal{ /*Y*/
+    animation: fade-in 100ms ease-in;
+    
+  }
+  
+
+
+
+  .center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  
+  .red_star {
+    color: #fd3939;
+  }
+
+
+
+
+.custom-notification-error {
+  border:3px inset #ff0000;     
+  border-radius: 3px;         
+  --tw-border-opacity: 0.9;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Poppins, sans-serif;
+  
+}
+
+
+.custom-notification-success {
+  border:3px inset #00ff2f;     
+  border-radius: 3px;         
+  --tw-border-opacity: 0.9;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Poppins, sans-serif;
+  
+}
+
+.TabBracket{
+  height: 52px;
+  border-left: 1px solid #ffffff; 
+  border-top: 1px solid #ffffff; 
+  border-bottom: 1px solid #ffffff; 
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  outline: none;
+  background-image: linear-gradient(to right,#256e4b8c,#1f5b3e8c,#1848318c,#1235248c,#0c22178c,#050f0a8c,#0000008c);
+  width: 112%;
+  padding: 0.1rem;
+  --tw-border-opacity: 0.9;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Poppins, sans-serif;
+ 
+ 
+
+
+
+}
+
+.TabOff{
+
+  
+  height: 42px;
+  border-left: 1px solid #979797; 
+  border-top: 1px solid #979797; 
+  border-bottom: 1px solid #979797; 
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  outline: none;
+  background: #212121;
+  width: 100%;
+  padding: 0.1rem;
+  --tw-border-opacity: 0.9;
+  color: rgb(151, 151, 151);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Poppins, sans-serif;
+  
+
+}
+
+/*checkbox//////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* Checkbox container */
+.checkbox-container {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Hide default checkbox */
+.checkbox-container input[type="checkbox"] {
+  opacity: 0;
+  position: absolute;
+  cursor: pointer;
+}
+
+/* Custom checkbox */
+.custom-checkbox {
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Checked state */
+.custom-checkbox.checked {
+  background-color: #007bff;
+}
+
+/* Checkmark icon */
+.checkmark {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform-origin: bottom left;
+  display: none;
+}
+
+/* Show checkmark when checkbox is checked */
+.custom-checkbox.checked .checkmark {
+  display: block;
+}
+
+
+.customWidth{
+max-width: 361px;
+
+}
+
+.minWidth{
+min-width: 80px;
+
+
+}
+
+.BorderTop1{
+  border-top: 1px solid #ffffff; 
+
+}
+
+.cancelButtonProps:hover{
+
+  
+  color: black !important;
+  border-color: rgba(0, 0, 0, 0.164) !important;
+}
+
+.colorBorder{
+  border-radius: 0%;
+
+     
+}

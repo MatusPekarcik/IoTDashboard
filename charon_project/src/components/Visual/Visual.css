@@ -1,0 +1,63 @@
+.myBorder{
+    border:1px solid rgba(255, 255, 255, 0.106); 
+
+
+}
+
+
+.myText{
+
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Poppins, sans-serif;
+}
+
+.myText2{
+  
+  font-size: 24px;
+  font-weight: 400;
+  font-family: Poppins, sans-serif;
+}
+
+.myRemark{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Poppins, sans-serif;
+}
+
+.myBg{
+  background: #ffffff13;
+}
+
+.graphBordr{
+  border:1px solid rgb(255, 255, 255); 
+}
+
+.phthalo-green-dark{
+
+  background-image: linear-gradient(to right,#123524,#0c2217,#050f0a,#000000);
+
+
+}
+.group\/card:hover .group-hover\/card\:shadow-custom {
+  --tw-shadow: 0 20px 25px -5px rgba(138, 138, 138, 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.hover\:shadow-100\/\[0\.1\]:hover {
+  /* Specify your shadow styles */
+  box-shadow: 0 0 0 1px #ffffff00;
+}
+
+.minWValu{
+
+width: 100px;
+
+
+}
+
+.myHeighy{
+
+  height: 500px;
+}
